@@ -25,6 +25,7 @@
 
       # Packages to add on top of `basePackages`
       packages = {
+        hsBlog.source = inputs.hsBlog;
         # Add source or Hackage overrides here
         # (Local packages are added automatically)
         /*

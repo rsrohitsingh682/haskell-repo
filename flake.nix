@@ -8,6 +8,13 @@
     haskell-flake.url = "github:srid/haskell-flake";
     fourmolu-nix.url = "github:jedimahdi/fourmolu-nix";
 
+    hsBlog = {
+      type = "git";
+      url = "ssh://git@github.com/rsrohitsingh682/hsBlog.git";
+      ref = "main";
+      rev = "8cbe5d073bd8e47d5616d4150723b6970f6136af";
+    };
+
     git-hooks.url = "github:cachix/git-hooks.nix";
     git-hooks.flake = false;
   };
